@@ -2,7 +2,11 @@
 # Mac+QT5+OpenCV
 
 [toc]
+This project has been updated to use cmake to build the project.
+create build directory under the source
+cmake -DCMAKE_PREFIX_PATH="/usr/local/Cellar/qt/5.12.2;/usr/local/Cellar/opencv/4.0.1" .. -DCMAKE_BUILD_TYPE=Debug
 
+original README.md is as follows.
 ## Mac上OpenCV的安装
 1. 首先检查OpenCV是否安装成功
 ```
